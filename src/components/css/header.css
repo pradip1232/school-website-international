@@ -1,0 +1,76 @@
+/* Top Strip Show/Hide Transitions */
+.top-strip {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.top-strip.hide {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.top-strip.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Sticky Navbar Styles */
+.sticky-navbar {
+    background-color: white;
+    /* Ensure visibility over content */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* General Button Styling */
+.navbar .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+
+
+
+
+/* Bottom Navbar - Sticky by default */
+.bottom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    width: 100%;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    background-color: none !important;
+    display: flex;
+    justify-content: center;
+    /* Center the navbar horizontally */
+    align-items: center;
+    /* Center content vertically */
+}
+
+.bottom-down-navbar {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+/* Bottom Navbar - Fixed when scrolling */
+.bottom-navbar.fixed {
+    position: fixed;
+    top: 0;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    width: 100%;
+    /* Ensure full width when fixed */
+}
+
+/* Smooth transition styles */
+.bottom-navbar.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.bottom-navbar.visible {
+    transform: translateY(0);
+    opacity: 1;
+}

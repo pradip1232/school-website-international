@@ -1,0 +1,1953 @@
+/* Hero Section */
+.herohome-section {
+    position: relative;
+    width: 100%;
+    /* overflow: hidden; */
+    /* Prevents overflow from child elements */
+}
+
+/* Hero Image */
+.hero-img {
+    width: 100%;
+    height: 100vh;
+    /* Full height of the viewport */
+    object-fit: cover;
+    /* Ensures the image covers the area without distortion */
+    margin-top: -38px;
+    /* Adjust the top margin for alignment */
+}
+
+/* Blue Welcome Container */
+.blue-welcome-container-home {
+    max-width: 700px;
+    width: 90%;
+    position: absolute;
+    top: 24%;
+    /* left: 50%; */
+    right: 0%;
+    /* transform: translate(-50%, -50%); */
+    /* Center the container vertically and horizontally */
+    background: linear-gradient(180deg, rgba(27, 129, 199, 0.79) 0%, rgba(30, 68, 137, 0.79) 100%);
+    padding: 20px;
+    color: #fff;
+    /* White text for readability */
+    border-radius: 0px;
+    /* Optional: Adds rounded corners */
+    text-align: left;
+    /* Centers the text */
+}
+
+/* Cloud Image */
+.cloud-home-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.cloud-home-img .cloud-img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    /* Ensures the image scales correctly */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.education-section {
+    background-color: #fff;
+    /* White background */
+}
+
+.main-heading {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E968C;
+}
+
+.highlight-green {
+    color: #E24586;
+    /* Green color */
+}
+
+.highlight-pink {
+    color: #E24586;
+    /* Pink color */
+}
+
+.sub-heading {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+}
+
+.text-pink {
+    color: #dc3545;
+    /* Pink color */
+}
+
+.description {
+    font-family: Alexandria;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.71px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1E1E1E;
+}
+
+.img-fluid {
+    border-radius: 0px !important;
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+    /* Subtle zoom on hover */
+}
+
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2rem;
+    }
+
+    .sub-heading {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section {
+    background-color: #fff;
+}
+
+.edu-section-title {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+}
+
+.text-primary-edu {
+    color: #0E968C;
+}
+
+.edu-section-description {
+    font-family: Alexandria;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.71px;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1E1E1E;
+}
+
+.image-wrapper {
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+    width: 503px;
+    height: 503px;
+    /* border-color: #000000; */
+
+
+}
+
+.bg-primary-edu {
+    background-color: #1E4489;
+    text-align: left;
+}
+
+.main-image {
+    border-radius: 15px;
+}
+
+.overlay-image {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 57px;
+    left: 8px;
+    border-radius: 0px;
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.84px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 6px 20px !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.edu-learn-more-btn {
+    background-color: #C21C24;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: white;
+
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .edu-section-description {
+        font-size: 0.9rem;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .overlay-image {
+        width: 40%;
+        top: -15px;
+        left: -20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.academics-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.academics-section-title {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E968C;
+
+}
+
+.academics-section-subtitle {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+}
+
+
+.main-learn-more-btn {
+    background-color: #C21C24;
+    border-radius: 0px;
+    color: #fff;
+
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+
+
+
+/* Flex container for equal height */
+.custom-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.custom-card {
+    position: relative;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Add a hover effect for background color change */
+.custom-card:hover {
+    transform: translateY(-10px);
+    background-color: var(--hover-bg);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Content inside the card */
+.custom-card .card-body {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    /* text-align: center; */
+    transition: background-color 0.3s ease;
+}
+
+.custom-card .card-title {
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29.9px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.custom-card .card-description {
+    font-family: Alexandria;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.71px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.custom-card .learn-more-btn {
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.91px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    text-decoration: none;
+    padding: 0 !important;
+}
+
+/* Ensure content opacity increases on hover */
+.first-cards-home:hover .card-body {
+    background-color: #1E4489;
+
+    opacity: 83%;
+
+}
+
+.third-cards-home:hover .card-body {
+    background-color: #1E4489;
+    opacity: 83%;
+
+}
+
+/* Individual card hover styles for background colors */
+.first-cards-home {
+    background-image: url('../images/VYF00060 1.webp');
+}
+
+.second-cards-home {
+    background-image: url('../images/VYF00060 1.webp');
+}
+
+.third-cards-home {
+    background-image: url('../images/VYF00060 1.webp');
+}
+
+.fourth-cards-home {
+    background-image: url('../images/VYF00060 1.webp');
+}
+
+.first-cards-home:hover {
+    --hover-bg: #1E4489;
+}
+
+
+.first-cards-home,
+.third-cards-home {
+    margin-top: 20px;
+}
+
+.second-cards-home:hover .card-body {
+    background-color: #1B81C7;
+    --hover-bg: #1B81C7;
+    opacity: 83%;
+
+}
+
+.third-cards-home:hover {
+    --hover-bg: #1E4489;
+}
+
+.fourth-cards-home:hover .card-body {
+    --hover-bg: #1B81C7;
+    background-color: #1B81C7;
+    /* opacity: 0.83px; */
+    opacity: 83%;
+}
+
+/* Animation for fading in cards */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.custom-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.school-models-section {
+    background-color: #fff;
+    padding: 50px 15px;
+}
+
+.school-models-section .section-title {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #0E968C;
+}
+
+.school-models-section .section-subtitle {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #E24586;
+}
+
+.text-section {
+    text-align: left;
+}
+
+.school-title {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 27.84px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #E24586;
+}
+
+.divider {
+    width: 50px;
+    height: 3px;
+    background-color: #e74c3c;
+    border: none;
+}
+
+.school-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.school-models-section .learn-more-btn {
+    background-color: #C21C24;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 0px;
+}
+
+/* .learn-more-btn:hover {
+    background-color: #c0392b;
+} */
+
+.school-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why-choose-fis {
+    padding: 3rem 0;
+}
+
+.why-choose-fis h2 {
+    font-family: Kanit, sans-serif;
+    /* Added fallback font */
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.16;
+    /* Simplified line-height */
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E968C;
+}
+
+.why-choose-fis .text-primary-fis {
+    color: #E24586;
+}
+
+.why-choose-fis .icon-wrapper img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 0.5px solid #000000;
+    background-color: #1E4489;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.why-choose-fis .icon-wrapper {
+    border: 0.5px solid #000000;
+    height: 99px;
+    width: 99px;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    /* color: #007bff; */
+}
+
+.why-choose-fis .unique-class {
+    /* border-left: 2px solid red; */
+    /* Updated to a red border */
+
+    border: none;
+
+}
+
+.why-choose-fis .unique-class:first-child {
+    border-left: none;
+    /* Remove the border for the first card */
+}
+
+.why-choose-fis .learn-more-btn {
+    background-color: #C21C24;
+    border-radius: 0;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+
+}
+
+.container-custom {
+    display: flex;
+    flex-wrap: wrap;
+    /* Ensures cards wrap on smaller screens */
+    justify-content: center;
+    /* Centers the cards horizontally */
+    gap: 20px;
+    /* Adds space between cards */
+}
+
+.unique-class {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    position: relative;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.unique-class:hover {
+    transform: translateY(-10px);
+    /* Moves the card slightly upwards on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    /* Increases shadow intensity on hover */
+}
+
+.unique-class:not(:last-child)::after {
+    content: "";
+    /* Adds a decorative line */
+    position: absolute;
+    top: 50%;
+    /* Aligns the line vertically at the center */
+    right: -10px;
+    /* Slightly outside the card */
+    height: 80%;
+    /* Height of the line */
+    width: 2px;
+    /* Thickness of the line */
+    /* background-color: red; */
+    border: 0.5px solid #000000;
+
+
+
+    gap: 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+
+    /* Updated line color to red */
+    transform: translateY(-50%);
+    /* Centers the line vertically */
+}
+
+.icon-wrapper {
+    font-size: 40px;
+    /* Size of the icons */
+    color: #007bff;
+    /* Icon color */
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Base styles for larger screens (desktop/laptop) */
+.campusfacilities-section {
+    background-image: url('../images/Group 2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 831px;
+}
+
+.campus-facilities-section .campus-section-title {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: center;
+    color: white;
+}
+
+.campus-facilities-section .campus-section-subtitle {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
+    text-align: center;
+    color: white;
+}
+
+.campus-facilities-section h3 {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: center;
+    color: white;
+}
+
+.campusfacilities-section .modern-row-campus,
+.sports-row-campus h2 {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: white;
+}
+
+.campusfacilities-section .modern-row-campus,
+.sports-row-campus p {
+    font-family: Alexandria;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.71px;
+    text-align: left;
+    color: white;
+}
+
+.campusfacilities-section .modern-row-campus,
+.sports-row-campus .learn-more-btn {
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.91px;
+    text-align: left;
+    color: white;
+    /* border: 1px solid white; */
+    /* Optional button styling */
+    padding: 10px 20px;
+    /* Adds padding for better UX */
+    border-radius: 20px;
+    /* Rounded corners */
+}
+
+/* Responsive Styles */
+
+/* For tablets (width <= 991px) */
+@media (max-width: 991px) {
+    .campusfacilities-section {
+        height: auto;
+        /* Adjust height to fit content */
+    }
+
+    .campus-facilities-section .campus-section-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .campus-facilities-section .campus-section-subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .campus-facilities-section h3 {
+        font-size: 20px;
+    }
+
+    .campusfacilities-section .modern-row-campus,
+    .sports-row-campus h2 {
+        font-size: 28px;
+        text-align: center;
+        /* Center-align on smaller screens */
+    }
+
+    .campusfacilities-section .modern-row-campus,
+    .sports-row-campus p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        /* Center-align on smaller screens */
+    }
+
+    .campusfacilities-section .modern-row-campus,
+    .sports-row-campus .learn-more-btn {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px auto;
+        /* Center button with margin */
+    }
+}
+
+/* For mobile (width <= 575px) */
+@media (max-width: 575px) {
+    .campus-facilities-section .campus-section-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .campus-facilities-section .campus-section-subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .campus-facilities-section h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .campusfacilities-section .modern-row-campus,
+    .sports-row-campus h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .campusfacilities-section .modern-row-campus,
+    .sports-row-campus p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .campusfacilities-section .modern-row-campus,
+    .sports-row-campus .learn-more-btn {
+        font-size: 14px;
+        margin: 5px auto;
+        /* Adjust spacing for smaller screens */
+        padding: 8px 15px;
+        /* Adjust padding */
+    }
+
+    .campusfacilities-section {
+        padding: 20px;
+        /* Add some padding for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container Styling */
+.campuses-guwahati-section-container {
+    padding: 5rem 0;
+    margin-top: 2rem;
+    position: relative;
+}
+
+/* Headings */
+.campuses-heading {
+    font-family: 'Kanit', sans-serif;
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E968C;
+}
+
+.campus-sub-heading {
+    font-family: 'Kanit', sans-serif;
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+}
+
+/* Background Section */
+.campuses-guwahati-section {
+    background-image: url('../images/campus 1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-radius: 0;
+}
+
+.campuses-guwahati-section::after {
+    content: '';
+    position: absolute;
+    height: 30%;
+    /* Adjust height for gradient at the bottom */
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    z-index: 1;
+}
+
+.campuses-guwahati-section * {
+    position: relative;
+}
+
+/* Title and Overlay */
+.campuses-guwahati-overlay {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 800px;
+
+}
+
+.guwahati-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    /* text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6); */
+}
+
+.guwahati-sub-title {
+    color: white;
+}
+
+.campuses-guwahati-overlay button {
+    background-color: #C21C24;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.91px;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+
+/* Cloud Image */
+.cloud-images-guwahati {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .campuses-heading {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .campus-sub-heading {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .campuses-guwahati-section {
+        height: 50vh;
+    }
+
+    .guwahati-title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .cloud-images-guwahati {
+        max-width: 100%;
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .campuses-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .campus-sub-heading {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .guwahati-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .campuses-guwahati-section {
+        height: 40vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.-join-the-finland-section {
+    background-color: #fff;
+    padding: 50px 15px;
+}
+
+.-join-the-finland-section-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.-join-the-finland-section-text {
+    text-align: left;
+}
+
+.-join-the-finland-section-title {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 35.16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+}
+
+.-join-the-finland-section-title .highlight {
+    color: #0E968C;
+}
+
+.-join-the-finland-section-subtitle {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+}
+
+.-join-the-finland-section-description {
+    font-family: Alexandria;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.71px;
+    text-align: justified;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+.-join-the-finland-section-buttons .-join-the-finland-section-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 0px;
+    /* paddi
+    
+    ng-right: 5px; */
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+.-join-the-finland-section-buttons .-join-the-finland-section-btn:first-child {
+    background-color: #C21C24;
+    border: none;
+    color: white;
+}
+
+.-join-the-finland-section-buttons .-join-the-finland-section-btn:first-child:hover {
+    background-color: #c0392b;
+}
+
+.-join-the-finland-section-buttons .-join-the-finland-section-btn:last-child {
+    color: black;
+    border: 1px solid #C21C24;
+    /* border: 1px solid #C21C24 */
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.-join-the-finland-section-buttons .-join-the-finland-section-btn:last-child:hover {
+    background-color: #C21C24;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Container */
+.finland-faculty {
+    background-color: #fff;
+    padding: 50px 15px;
+}
+
+/* Section Title */
+.finland-faculty-title-m {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E968C;
+
+}
+
+.finland-faculty-title-m .text-dangerrr {
+    color: #E24586;
+}
+
+/* Section Title */
+.finland-faculty-title {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E968C;
+
+}
+
+.finland-faculty-title .text-dangerrr {
+    color: #E24586;
+}
+
+/* Faculty Cards */
+.finland-faculty-card {
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    background-color: #F1F1F1;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.finland-faculty-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.finland-faculty-card .finland-faculty-cards-img {
+    margin-top: 10px;
+    border: 1px solid #1E4489;
+    height: 99px;
+    width: 99px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.finland-faculty-card .finland-faculty-image {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Faculty Name */
+.finland-faculty-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #34495e;
+    margin-top: 10px;
+}
+
+/* Faculty Title */
+.finland-faculty-title {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.finland-faculty-button {
+    background-color: #C21C24;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.finland-faculty-button:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.our-mthodology-container .Our-Methodology-heading {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 41.76px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0E968C;
+}
+
+.our-mthodology-container .methodology-subheading {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+    text-transform: uppercase;
+}
+
+.our-mthodology-container .methlodology-desccription {
+    font-family: Alexandria;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.71px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.our-mthodology-container .methodology-bold-des {
+    font-family: Alexandria;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.ourethodology-card-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* Adjust based on your design requirements */
+    overflow: hidden;
+}
+
+.ourethodology-card-container .tedi-medi-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.ourethodology-card-container .card-container-row-meth {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 10px;
+    /* Padding for responsiveness */
+}
+
+.ourethodology-card-container .card-container-row-meth .col-md-3 {
+    padding: 20px;
+    /* Adds spacing around the cards */
+}
+
+.methodology-cards-4 {
+    margin-left: 12px;
+
+}
+
+.ourethodology-card-container .card-container-row-meth .card {
+    border: none;
+    background: rgb(236, 235, 235);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 420px;
+    border-radius: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.ourethodology-card-container .card-container-row-meth .card img {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 30%;
+    height: 30%;
+    margin-top: 104px;
+    /* margin-left: 93px; */
+    padding: 10px;
+    /* object-fit: cover; */
+    /* border-radius: 20px 20px 0 0; */
+}
+
+.ourethodology-card-container .card>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.ourethodology-card-container .card-container-row-meth .card .card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding: 22px;
+    margin-bottom: 40px;
+    /* Ensures the subtitle stays at the bottom */
+}
+
+.ourethodology-card-container .card-container-row-meth .card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Adds spacing between title and subtitle */
+}
+
+.ourethodology-card-container .card-container-row-meth .card .card-subtitle {
+    font-size: 14px;
+    color: #555;
+    /* Slightly muted color for subtitle */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section Container */
+.how-it-works {
+    background-color: #1B81C7;
+    /* Blue background */
+    color: #fff;
+}
+
+/* Section Title */
+.how-it-works-title {
+    color: #E24586;
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 27.84px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.how-it-works-tab {
+    background-color: none !important;
+    border-radius: 0px !important;
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 37.07px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.how-it-works-nav {
+    gap: 5rem;
+}
+
+/* Nav Tabs */
+.how-it-works-nav .nav-link .active {
+    background-color: none !important;
+}
+
+.how-it-works-nav .nav-link {
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 37.07px;
+    padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.how-it-works-nav .nav-link:hover,
+.how-it-works-nav .nav-link.active {
+    color: white;
+    /* Light yellow */
+    border-bottom: 2px solid white;
+    background-color: none;
+    background: none;
+}
+
+/* Tab Content */
+.how-it-works-content {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why-finnish-education {
+    padding: 20px;
+}
+
+.why-finnish-education .section-title .text-primary {
+    color: #0E968C !important;
+}
+
+.why-finnish-education .section-title {
+    font-family: Kanit;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 35.16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E24586;
+}
+
+/* .why-finnish-education .section-title .text-primary {
+    color: #007bff;
+} */
+
+.why-finnish-education .section-subtitle {
+    font-family: Alexandria;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+.why-finnish-education .section-description {
+    font-family: Alexandria;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.why-finnish-education .read-more-btn {
+    background-color: #C21C24;
+    border-radius: 0;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.91px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.why-finnish-education .image-section .why-image {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+@media (max-width: 768px) {
+    .why-finnish-education {
+        text-align: center;
+    }
+
+    .why-finnish-education .text-section {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.what-parents-and-students-say {
+    padding: 40px 0;
+    /* background-color: #f9f9f9; */
+}
+
+.what-parents-and-students-say .image-section .testimonial-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.what-parents-and-students-say .testimonial-card {
+    background-color: #0E968C;
+    /* Primary teal background */
+    color: white;
+    border-radius: 0px;
+    margin-right: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.what-parents-and-students-say .third-card-testimonial {
+    border: none;
+}
+
+.what-parents-and-students-say .testimonial-card .quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.what-parents-and-students-say .testimonial-card .quote-icon {
+    font-size: 3rem;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.what-parents-and-students-say .testimonial-card .author {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.slick-dots li button:before {
+    color: #0dcaf0;
+    /* Custom color for dots */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #004c7d;
+    /* Custom active color */
+}
+
+.slick-slide {
+    display: flex !important;
+    /* Ensure slides are flex containers */
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.what-parents-and-students-say .third-card-testimonial h1 {
+    font-family: Kanit, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .what-parents-and-students-say {
+        text-align: center;
+    }
+
+    .what-parents-and-students-say .testimonial-section {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .what-parents-and-students-say .testimonial-card {
+        padding: 15px;
+    }
+}

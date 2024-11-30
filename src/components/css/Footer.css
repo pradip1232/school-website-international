@@ -1,0 +1,120 @@
+.footer {
+    background-color: #1E4489;
+    /* Bootstrap primary color */
+    color: white;
+}
+
+.footer h5 {
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 19.53px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    font-family: Alexandria;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact address {
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.footer-subscribe {
+    margin-top: -6rem;
+    margin-bottom: 20px;
+}
+
+
+.footer-subscribe p {
+    font-family: Alexandria;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    /* text-align: left; */
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.footer-input {
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 0px;
+}
+
+.footer-subscribe-btn {
+    font-family: Alexandria;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.social-icon {
+    width: 55px;
+    /* Adjust size as needed */
+    height: 55px;
+    margin-bottom: 10px;
+    /* Space between icons */
+}
+
+
+.footer-bottom {
+    border-top: 1px solid white;
+    padding-top: 15px;
+}
+
+.footer-bottom a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .footer h5 {
+        text-align: center;
+    }
+
+    .footer ul {
+        text-align: center;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+
+    .footer-subscribe .footer-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
