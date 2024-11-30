@@ -1,3 +1,18 @@
+/* To completely hide the x-axis scrollbar */
+body {
+    overflow-x: hidden;
+}
+
+/* If applied to a specific container */
+.container {
+    overflow-x: hidden;
+}
+
+
+
+
+
+
 /* Hero Section */
 .herohome-section {
     position: relative;
@@ -40,7 +55,7 @@
 /* Cloud Image */
 .cloud-home-img {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
 }
 
@@ -50,6 +65,7 @@
     object-fit: cover;
     /* Ensures the image scales correctly */
 }
+
 
 
 
@@ -130,11 +146,38 @@
 
 @media (max-width: 768px) {
     .main-heading {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        line-height: 30px;
     }
 
     .sub-heading {
         font-size: 1rem;
+    }
+
+    /* Hero Section */
+    .herohome-section {
+        position: absolute !important;
+        width: 100%;
+        overflow: hidden;
+        height: 78vh;
+        /* Prevents overflow from child elements */
+    }
+
+    .blue-welcome-container-home {
+        padding: 10px;
+    }
+
+    .blue-welcome-container-home h2 {
+        font-size: 0.9rem;
+
+    }
+
+    .blue-welcome-container-home p {
+        font-size: 12px;
+    }
+
+    .education-section {
+        margin-top: 28rem;
     }
 }
 
@@ -257,7 +300,14 @@
     }
 
     .edu-section-description {
-        font-size: 0.9rem;
+        font-family: Alexandria;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24.71px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #1E1E1E;
     }
 
     .main-image {
@@ -269,6 +319,22 @@
         top: -15px;
         left: -20px;
     }
+
+    .edu-section-title {
+        font-family: Kanit;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 24.76px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+    }
+
+    .text-center-mobile {
+        text-align: center !important;
+    }
+
 }
 
 
@@ -488,6 +554,46 @@
     animation: fadeInUp 0.6s ease-out;
 }
 
+@media (max-width: 576px) {
+    .academics-section-title {
+        font-family: Kanit;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 27.76px;
+        /* text-align: left; */
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #0E968C;
+    }
+
+    .academics-section-subtitle {
+        font-family: Kanit;
+        font-size: 17px;
+        font-weight: 275;
+        line-height: 27.84px;
+        /* text-align: left; */
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+    }
+
+    .first-cards-home {
+        margin-top: 10px;
+    }
+
+    .first-cards-home,
+    .third-cards-home {
+        margin-top: 0px;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -596,6 +702,42 @@
     max-width: 100%;
     height: auto;
 }
+
+@media (max-width:576px) {
+    .school-models-section .section-title {
+        font-family: Kanit;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 21.76px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #0E968C;
+    }
+
+    .school-models-section .section-subtitle {
+        font-family: Kanit;
+        font-size: 15px;
+        font-weight: 275;
+        line-height: 18.84px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+    }
+
+    .school-title {
+        font-family: Kanit;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16.84px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+    }
+}
+
 
 
 
@@ -741,7 +883,6 @@
     border: 0.5px solid #000000;
 
 
-
     gap: 0px;
     border: 0.5px 0px 0px 0px;
     opacity: 0px;
@@ -760,10 +901,44 @@
 }
 
 .card-title {
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.84px;
     text-align: center;
-    color: #333;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .why-choose-fis h2 {
+        font-family: Kanit, sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.16;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #0E968C;
+    }
+
+
+    .unique-class:not(:last-child)::after {
+        display: none;
+    }
+
+    .card-title {
+        font-family: Kanit;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 17.84px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+    }
+
 }
 
 
@@ -1132,7 +1307,7 @@
     }
 
     .campuses-guwahati-section {
-        height: 50vh;
+        height: 60vh;
     }
 
     .guwahati-title {
@@ -1147,6 +1322,16 @@
 }
 
 @media (max-width: 576px) {
+    .cloud-images-guwahati {
+        position: absolute;
+        bottom: -1px;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 3;
+    }
+
     .campuses-heading {
         font-size: 24px;
         line-height: 30px;
@@ -1163,7 +1348,7 @@
     }
 
     .campuses-guwahati-section {
-        height: 40vh;
+        height: 60vh;
     }
 }
 
@@ -1292,6 +1477,29 @@
     color: white;
 }
 
+@media (max-width:576px) {
+    .-join-the-finland-section-title {
+        font-family: Kanit;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 26.16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+    }
+
+    .-join-the-finland-section-subtitle {
+        font-family: Kanit;
+        font-size: 16px;
+        font-weight: 275;
+        line-height: 18.84px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+    }
+}
 
 
 
@@ -1442,6 +1650,18 @@
     background-color: #c0392b;
 }
 
+@media (max-width : 576px) {
+    .finland-faculty-title-m {
+        font-family: Kanit;
+        font-size: 27px;
+        font-weight: 500;
+        line-height: 40.76px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #0E968C;
+    }
+}
 
 
 
@@ -1522,7 +1742,7 @@
 .ourethodology-card-container {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 501px;
     /* Adjust based on your design requirements */
     overflow: hidden;
 }
@@ -1617,7 +1837,78 @@
     /* Slightly muted color for subtitle */
 }
 
+@media (max-width:576px) {
+    .our-mthodology-container .Our-Methodology-heading {
+        font-family: Kanit;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 32.76px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #0E968C;
+    }
 
+    .our-mthodology-container .methodology-subheading {
+        font-family: Kanit;
+        font-size: 20px;
+        font-weight: 275;
+        line-height: 23.84px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+        text-transform: uppercase;
+    }
+
+    .ourethodology-card-container .card-container-row-meth .card {
+        border: none;
+        background: rgb(236, 235, 235);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        height: 255px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+
+    .ourethodology-card-container .card-container-row-meth .card .card-body {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-end;
+        flex-grow: 1;
+        padding: 22px;
+        margin-bottom: 0px;
+    }
+
+    .ourethodology-card-container .card-container-row-meth .card img {
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        width: 30%;
+        height: 100%;
+        /* margin-top: 104px; */
+        margin-left: 0px;
+        padding: 0px;
+        /* object-fit: cover; */
+        /* border-radius: 20px 20px 0 0; */
+    }
+
+    .ourethodology-card-container .tedi-medi-bg-img {
+        display: none;
+    }
+
+    .ourethodology-card-container {
+        position: relative;
+        width: 100%;
+        height: 72rem;
+        overflow: hidden;
+    }
+}
 
 
 
@@ -1826,7 +2117,68 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
+@media (max-width:576) {
+    .how-it-works-nav {
+        gap: 0rem;
+    }
+
+    .how-it-works-nav .nav-link {
+        background: none;
+        border: none;
+        color: #fff;
+        font-family: Kanit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 8.07px;
+        padding: 10px 15px;
+        border-bottom: 2px solid transparent;
+        transition: all 0.3s ease;
+    }
+
+    .why-finnish-education .section-subtitle {
+        font-family: Alexandria;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.8px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+    }
+}
+
 @media (max-width: 768px) {
+
+    .how-it-works-nav {
+        gap: 0rem;
+    }
+
+    .how-it-works-nav .nav-link {
+        background: none;
+        border: none;
+        color: #fff;
+        font-family: Kanit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 8.07px;
+        padding: 10px 15px;
+        border-bottom: 2px solid transparent;
+        transition: all 0.3s ease;
+    }
+
+    .why-finnish-education .section-subtitle {
+        font-family: Alexandria;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.8px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+    }
+
+
+
     .why-finnish-education {
         text-align: center;
     }
@@ -1834,7 +2186,46 @@
     .why-finnish-education .text-section {
         margin-bottom: 20px;
     }
+
+    .why-finnish-education .section-title {
+        font-family: Kanit;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 35.16px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #E24586;
+    }
+
+    .why-finnish-education .section-subtitle {
+        font-family: Alexandria;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.8px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+    }
+
+    .why-finnish-education .section-description {
+        font-family: Alexandria;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21.8px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
 }
+
+
+
+
+
+
+
 
 
 
@@ -1878,6 +2269,7 @@
     background-color: #0E968C;
     /* Primary teal background */
     color: white;
+    border: none;
     border-radius: 0px;
     margin-right: 10px;
     padding-right: 10px;
@@ -1885,12 +2277,32 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 
-.what-parents-and-students-say .third-card-testimonial {
-    border: none;
+.what-parents-and-students-say .third-card-testimonial .card img {
+    width: 50%;
+    height: 50%;
+}
+
+.what-parents-and-students-say .third-card-testimonial .card {
+    border: none !important;
+}
+
+.what-parents-and-students-say .testimonial-card .quote .quote-icon {
+    text-align: center;
+    align-items: center;
+    font-family: Kanit;
+    /* font-size: 108px; */
+    height: 74px;
+
+    /* font-weight: 600; */
+    /* line-height: 156.71px; */
+    /* text-align: center; */
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
 }
 
 .what-parents-and-students-say .testimonial-card .quote {
@@ -1898,6 +2310,7 @@
     font-style: italic;
     line-height: 1.6;
     margin-bottom: 20px;
+    /* text-align: center; */
 }
 
 .what-parents-and-students-say .testimonial-card .quote-icon {
@@ -1929,11 +2342,24 @@
 }
 
 .what-parents-and-students-say .third-card-testimonial h1 {
+    padding-right: 8rem;
     font-family: Kanit, sans-serif;
-    font-size: 1.5rem;
+    font-family: Kanit;
+    font-size: 37px;
     font-weight: 600;
+    line-height: auto;
     text-align: left;
-    color: #333;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #D9D9D9;
+}
+
+.what-parents-and-students-say .testimonial-section .card {}
+
+.what-parents-and-students-say .testimonial-section {
+    background-color: #0E968C;
+    height: 100%;
 }
 
 @media (max-width: 768px) {

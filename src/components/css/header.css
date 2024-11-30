@@ -1,3 +1,30 @@
+.top-side-navbar-phone-email {
+
+    font-family: Alike;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.56px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.top-side-row-navbar {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-side-row-navbar input {
+    border-radius: 0;
+}
+
+.top-side-row-navbar button {
+    background-color: #1E4489;
+    color: white;
+    border-radius: 0%;
+}
+
 /* Top Strip Show/Hide Transitions */
 .top-strip {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -73,4 +100,41 @@
 .bottom-navbar.visible {
     transform: translateY(0);
     opacity: 1;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    .navbar-collapse {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .top-navbar-searchbutton {
+        display: none;
+    }
+
+    .top-navbar-colmmn-logo {
+        text-align: left !important;
+    }
+
+    .bottom-down-navbar {
+        display: flex !important;
+        flex-wrap: inherit;
+        align-items: end !important;
+        justify-content: flex-end !important;
+        flex-direction: column;
+        margin-top: -46px;
+    }
+
+    .bottom-down-navbar-button {
+        /* margin-top: -20px; */
+        display: flex !important;
+        flex-wrap: inherit;
+        align-items: end !important;
+        justify-content: flex-end !important;
+        flex-direction: column;
+    }
 }

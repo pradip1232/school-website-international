@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ff from '../images/ngayhanhphuc-1 1.png';
 import f4 from '../images/4 1.webp';
 import { Container, Row, Col, Button, Card, Tab, Nav } from 'react-bootstrap';
@@ -29,6 +29,8 @@ import m1 from '../images/methadology 1.webp';
 import m2 from '../images/methadology 1-1.webp';
 import m3 from '../images/methadology 1-2.webp';
 import m4 from '../images/methadology q1 1.webp';
+import { gsap } from 'gsap';
+
 
 const facultyData = [
     {
@@ -113,6 +115,20 @@ const HeroSection = () => {
 
 
 
+    useEffect(() => {
+        gsap.fromTo(
+            ".blue-welcome-container-home",
+            { x: 500, opacity: 0 }, // Start off-screen
+            { x: 0, opacity: 1, duration: 3.5, ease: "power4.out" } // Final position
+        );
+    }, []);
+    useEffect(() => {
+        gsap.fromTo(
+            ".blue-welcomeheading-home",
+            { x: 500, opacity: 0 }, // Start off-screen
+            { x: 0, opacity: 1, duration: 3.5, ease: "power4.out" } // Final position
+        );
+    }, []);
 
 
 
@@ -120,10 +136,12 @@ const HeroSection = () => {
 
     return (
         <>
+
+
             <section className='herohome-section'>
                 <img src={ff} className='hero-img' />
                 <div className='blue-welcome-container-home'>
-                    <h2>Welcome to Finland International School (FIS)</h2>
+                    <h2 className='blue-welcomeheading-home'>Welcome to Finland International School (FIS)</h2>
                     <p>At Finland International School (FIS), we believe in transforming education by bringing the best of Finland’s world-renowned learning methodologies to India. Our partnership with EduCluster Finland, combined with the legacy of Goenka Inc., ensures that our students receive a holistic education that is both innovative and rooted in strong values. We are committed to nurturing the leaders, thinkers, and innovators of tomorrow.</p>
                 </div>
                 <div className='cloud-home-img'>
@@ -219,7 +237,7 @@ const HeroSection = () => {
                             </div>
                         </Col>
                         {/* Text Section */}
-                        <Col md={6}>
+                        <Col md={6} className='text-center-mobile'>
                             <h2 className="edu-section-title">
                                 Where <span className="text-primary-edu">Education</span><br /> Meets{' '}
                                 <span className="text-primary-edu">Innovation</span>
@@ -244,10 +262,14 @@ const HeroSection = () => {
 
 
 
+
+
+
+
             <section className="academics-section py-5">
                 <Container>
                     <Row>
-                        <Col md={10} className='text-left justify-content-start'>
+                        <Col md={10} className='text-left justify-content-start text-center-mobile'>
                             <h2 className="academics-section-title text-centerr ">
                                 <span className="text-primary3">Academics at Finland International School</span>
                                 <br />
@@ -762,12 +784,12 @@ const HeroSection = () => {
                         </Col>
 
                         {/* Testimonial Section */}
-                        <Col xs={12} md={4} className="testimonial-section d-flex flex-column">
+                        <Col xs={12} md={4} className="testimonial-section d-flex flex-column" >
                             <Slider {...settings}>
                                 {/* Card 1 */}
                                 <Card className="testimonial-card p-4 flex-grow-1 mx-3">
                                     <Card.Text className="quote">
-                                        <span className="quote-icon">“</span>
+                                        <span className="quote-icon">““</span>
                                         The school is not just about academics; it’s about growing as a person. The interactive learning, caring teachers, and extracurricular activities make every day exciting. I love being part of this amazing community!
                                     </Card.Text>
                                     <Card.Text className="author">
@@ -777,7 +799,7 @@ const HeroSection = () => {
                                 {/* Card 2 */}
                                 <Card className="testimonial-card p-4 flex-grow-1 mx-3">
                                     <Card.Text className="quote">
-                                        <span className="quote-icon">“</span>
+                                        <span className="quote-icon">““</span>
                                         We couldn't be happier with the education our child is receiving. The teachers are outstanding and genuinely care about the students.
                                     </Card.Text>
                                     <Card.Text className="author">
@@ -787,7 +809,7 @@ const HeroSection = () => {
                                 {/* Card 3 */}
                                 <Card className="testimonial-card p-4 flex-grow-1 mx-3">
                                     <Card.Text className="quote">
-                                        <span className="quote-icon">“</span>
+                                        <span className="quote-icon">““</span>
                                         Amazing faculty and great extracurricular activities that help children grow holistically. Highly recommended!
                                     </Card.Text>
                                     <Card.Text className="author">
@@ -810,6 +832,12 @@ const HeroSection = () => {
                     </Row>
                 </Container>
             </section>
+
+
+
+
+
+
         </>
     )
 }
